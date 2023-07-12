@@ -42,7 +42,7 @@ string solution(vector<string> participant, vector<string> completion)
     // 3. completion 배열을 전부 찾아도 답이 없다면, 마지막 선수가 완주하지 못한 선수다.
         
 
-    return participant[i]; //s 다 찾지 못하면 마지막 선수가 완주하지 못한걸로 간주하여 반환
+    return participant[i]; //다 찾지 못하면 마지막 선수가 완주하지 못한걸로 간주하여 반환
 
 
 }
@@ -55,4 +55,12 @@ int main(void)
     return 0;
 }
 
+
+/*
+응용문제
+ 
+1. 완주하지 못한 사람이 여러명인 경우 풀어보기
+2. 숫자형태로도 변형해서 두배열을의 정렬, 최소값, 최대값등으로 풀어보기
+
+*/
 
